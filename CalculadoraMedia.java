@@ -17,5 +17,13 @@ public class CalculadoraMedia {
 
         System.out.println("Qual o valor da nota 2: ");
         nota2 = sc.nextDouble();
+
+        double media = (nota1 + nota2) / 2;
+
+        if (media >= 7) {
+            System.out.println(nome + " Foi aprovado");
+        } else {
+            System.out.println("reprovado");
+        }
     }
 }
